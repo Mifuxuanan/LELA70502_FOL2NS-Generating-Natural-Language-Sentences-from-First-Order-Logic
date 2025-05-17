@@ -1,0 +1,3071 @@
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b ) ⊕ ∃ c C ( c , d ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ¬ B ( a , b ) ∨ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b , c ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b ) ∨ ∃ c C ( c , d ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) → B ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b ) ∨ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b ) ∨ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → B ( a ) ⊕ ¬ C ( a , b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b ( B ( b , d ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b ) ∨ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b ) ⊕ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b , e ) ∨ ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∀ b ( B ( b , d ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b ) → ∃ c C ( c , d ) )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a , b ) ∨ C ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ¬ B ( a ) ⊕ C ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b , c ) ∨ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b , d ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b ) ∧ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( ¬ B ( b ) ∧ ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( B ( b , d ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b , d ) ∨ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b ¬ B ( b ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b , d ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∃ b ( ¬ B ( b ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b , d ) → ∀ c C ( c ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b ) ∧ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b , d ) → ∃ c ¬ C ( c , e ) )"}
+{"Inputs":"∃ a ¬ A ( a ) ∧ ∀ b ¬ B ( b , c )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b , d ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b , e ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( B ( b ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b , d ) ⊕ ∀ c C ( c , e ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b ) ∧ ∀ c C ( c , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b ) ⊕ ∃ c ¬ C ( c , d ) )"}
+{"Inputs":"∃ a ( A ( a ) → ∃ b B ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b ) → ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) ∧ C ( b , c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b ) ∨ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b , e ) ∧ ∀ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b ) → C ( b , c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b , e ) ⊕ ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b , e ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b , d ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a ) ⊕ ∀ b C ( b , c ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b , c ) ∨ ¬ C ( b , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b , d ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( B ( b , c ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b , c ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b , c ) ∧ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ¬ B ( b , d ) ⊕ ∃ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a ¬ A ( a , c ) ⊕ ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∀ b ( B ( b ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∃ b ( ¬ B ( b ) ∨ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b , e ) → ∀ c C ( c , f )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∀ b ( ¬ B ( b ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a , b )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ¬ B ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a ) → C ( a , b ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b ) ∨ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ ¬ B ( a ) ∧ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b ) ∨ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b ) → C ( b , c ) )"}
+{"Inputs":"∃ a ( A ( a , b ) ∨ ¬ B ( a , c ) )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b ¬ B ( b ) ∨ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( ¬ B ( b ) ∨ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ B ( a , c ) ∨ ¬ C ( a , d ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b , d ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b , c ) → ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a ) ∨ ∃ b C ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , b ) ⊕ B ( a ) → ¬ C ( a , c ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b ) → ∀ c ¬ C ( c , d )"}
+{"Inputs":"∃ a A ( a ) ∨ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b , c ) ∨ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ B ( a , b ) ∧ C ( a , c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∃ b B ( b ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b ) ∧ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a , c ) → ∀ b B ( b )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ¬ B ( a ) → ¬ C ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b , d ) ∨ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b , c ) → ¬ C ( b ) ) )"}
+{"Inputs":"∃ a ( A ( a , b ) ⊕ B ( a ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b , d ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ B ( a ) ∨ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ¬ B ( a , b ) ∨ C ( a ) )"}
+{"Inputs":"¬ A ( a , c ) ∧ ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b ) ∨ ∃ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a , b ) ∨ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b ) → C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b , d ) ∨ ∃ c C ( c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , c ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"¬ A ( a , c ) → ¬ B ( b )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∀ b ¬ B ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ¬ B ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ B ( a , b ) → ¬ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ¬ B ( b ) → ∃ c C ( c , d ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b , e ) ⊕ ∀ c C ( c , f )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( ¬ B ( b , d ) ∨ C ( b , e ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b , d ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b , d ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"¬ A ( a ) → ¬ B ( b , c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b , d ) → ∃ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∃ b ( ¬ B ( b ) ∧ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ ¬ B ( a ) → C ( a ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b , e ) → ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b ) ⊕ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b , d ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b , d ) → ∀ c ¬ C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) ∨ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∀ b ( ¬ B ( b , d ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∃ b ( B ( b ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b , c ) ∧ C ( b , d ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b , e ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∀ b ( ¬ B ( b ) ⊕ C ( b , c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b , d ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∀ b ( ¬ B ( b , d ) → C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a ) → ∃ b C ( b ) )"}
+{"Inputs":"∃ a ( A ( a , c ) ∨ ∃ b ¬ B ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( B ( b , d ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∃ a ( ¬ A ( a ) ∧ B ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b , d ) ⊕ ∀ c C ( c ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b , d ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ¬ B ( b ) → ∀ c C ( c , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b ) ∧ ∀ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b , d ) ⊕ ∃ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b , d ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ¬ B ( a )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) ∧ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b , d ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ B ( a , b ) → ¬ C ( a , c ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b , c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a , c ) ∧ ∀ b C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) ∨ ∀ b C ( b ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∀ b ( ¬ B ( b ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∃ b ( B ( b ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b ) → ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ ¬ B ( a , c ) ⊕ C ( a ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b , e ) → ∀ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b , c ) ⊕ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b , e ) ∨ ∀ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a , b ) ⊕ B ( a ) ∧ C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a ) → ¬ C ( a , b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b ) ∨ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∀ b ( ¬ B ( b ) ∨ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a ) ∧ ∃ b C ( b , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b ) ∧ ∀ c C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b , e ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b ) ⊕ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b ) ∨ ∃ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b , d ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , c ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b , c ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ( B ( b ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ ¬ B ( a ) → ¬ C ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b B ( b , c ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b ) ∨ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( ¬ B ( b , d ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b , e ) ∨ ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b ) ∨ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∃ a ( ¬ A ( a ) → ∃ b B ( b , c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b , e ) ⊕ ∀ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b , c ) ⊕ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b ) → ∃ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ⊕ ¬ B ( a , c ) ⊕ C ( a , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b )"}
+{"Inputs":"A ( a , c ) ⊕ ∃ b B ( b , d )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( ¬ B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"A ( a , c ) ∨ B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b ) ∨ ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b , c ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b ) ∨ ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b , d ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b ) ∨ ∀ c C ( c , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b , d ) ∧ ∀ c ¬ C ( c , e ) ) )"}
+{"Inputs":"∃ a ( A ( a , b ) → ¬ B ( a , c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b , e ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∃ a A ( a , c ) ∧ ∃ b B ( b )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ¬ B ( a ) → C ( a , b ) )"}
+{"Inputs":"∃ a ¬ A ( a ) ∨ ∀ b B ( b , c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b , d ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b ) ∨ ∃ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) ∨ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , d ) ⊕ ∀ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∃ b ( B ( b , d ) ⊕ C ( b , e ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b ) ⊕ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b , d ) → ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b , d ) ∨ ∀ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b , c ) → ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∀ b ( ¬ B ( b , d ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∀ b ( B ( b ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∃ b ( B ( b ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , c ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b ) ∧ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → B ( a , b ) ∨ ¬ C ( a ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b ) ∨ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ B ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b , d ) ⊕ ∃ c C ( c , e ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b ) ∨ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b , d ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ¬ B ( a , b ) ⊕ C ( a , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b ) → ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ B ( a , c ) → C ( a , d ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b , c ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b ) ⊕ C ( b , c ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b ) ⊕ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c , e ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b ¬ B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∀ b B ( b ) )"}
+{"Inputs":"¬ A ( a ) ⊕ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∃ a ( ¬ A ( a , b ) ∧ B ( a ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b , d ) → ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b , d ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b ) ⊕ ∃ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b , d ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"A ( a ) ⊕ ¬ B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a ) ∨ C ( a , b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b , d ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∀ b ( B ( b , d ) ∨ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ⊕ ¬ B ( a ) ∧ C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b , d ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ B ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b ) → ∃ c C ( c , d ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b , d ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b , c ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∃ b ( B ( b ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b ) ∨ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b ) ⊕ ∃ c C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b , d ) ⊕ ∃ c C ( c )"}
+{"Inputs":"¬ A ( a ) ⊕ B ( b , c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b ) ∨ ∀ c C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b , e ) → ∀ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b , c ) ⊕ ¬ C ( b , d ) )"}
+{"Inputs":"¬ A ( a , c ) ⊕ ∀ b B ( b , d )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∀ b ( B ( b , d ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b ) ∧ ¬ C ( b , c ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b ) ∧ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b , d ) ∨ ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∀ b ( ¬ B ( b , d ) ∨ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) ∧ ∃ c C ( c )"}
+{"Inputs":"∃ a A ( a , c ) ∨ ∀ b ¬ B ( b , d )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b , e ) ∨ ∀ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b ) → C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b ) → ∃ c C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b , d ) ∨ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ B ( a , c ) → ¬ C ( a , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b ) → C ( b , c ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b )"}
+{"Inputs":"¬ A ( a ) → ¬ B ( b )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b ) → ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b , e ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( ¬ B ( b , d ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b ) → ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a , c ) → ∀ b B ( b , d )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∀ b ( ¬ B ( b ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ ¬ B ( a , c ) )"}
+{"Inputs":"∃ a A ( a , b ) → B ( a , c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ( B ( b , c ) ∨ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b , d ) ∧ ∀ c C ( c , e ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b , d ) ∧ ∀ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b , d ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , d ) ∨ ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b , e ) ∨ ∀ c C ( c , f )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b , d ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b , e ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∃ b ( ¬ B ( b , c ) → ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b , e ) ∨ ∀ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a , b ) → ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b ) → ∃ c ¬ C ( c , d )"}
+{"Inputs":"∃ a A ( a ) ∨ ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b , d ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∀ b ( B ( b , d ) → C ( b , e ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b , e ) ∧ ∀ c C ( c , f )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b ) ∧ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b , d ) ∨ ∀ c C ( c ) )"}
+{"Inputs":"∃ a A ( a ) → ∃ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ B ( a ) → C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b , d ) → ∃ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( ¬ B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∃ a A ( a ) → ∃ b B ( b )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b ) ∧ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∀ b ( B ( b , d ) → C ( b , e ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b , e ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∀ b ( B ( b , d ) → ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a , b ) ∨ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b , d ) → ∀ c C ( c ) ) )"}
+{"Inputs":"¬ A ( a )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b ) ∨ ∀ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b ) ∨ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ⊕ ∀ b ¬ B ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( ¬ B ( b ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b ) → ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b ) ∧ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ¬ B ( a )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∀ b ( ¬ B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( ¬ B ( b ) → C ( b , d ) ) )"}
+{"Inputs":"∀ a ¬ A ( a , c ) ⊕ ∃ b ¬ B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b , d ) → ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b , d ) → ∀ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∀ b ( ¬ B ( b ) ∨ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ¬ B ( a ) ∨ C ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∃ b ( B ( b ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b , d ) ⊕ ∀ c C ( c )"}
+{"Inputs":"¬ A ( a , c ) → ∀ b B ( b , d )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b , d ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b , e ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a , c ) ⊕ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∃ a A ( a , c ) ⊕ ∃ b B ( b , d )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b , d ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b ) → ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ¬ B ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a ) ∧ ∃ b ¬ C ( b , c ) )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) ⊕ C ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b , e ) ∨ ∀ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b ) ∧ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b ) ∧ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( B ( b ) ⊕ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b , e ) ∧ ∃ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b , c ) ∧ ¬ C ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a , c ) → ∀ b ¬ C ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b , e ) → ∀ c ¬ C ( c , f )"}
+{"Inputs":"A ( a , c ) ∧ B ( b )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b ) ∨ ∃ c C ( c , d ) )"}
+{"Inputs":"∃ a A ( a )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b , d ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b , d ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∃ a ¬ A ( a ) ∨ ∃ b B ( b )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ¬ B ( b ) ∨ ∀ c C ( c , d ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b , d ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b ) ⊕ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b , e ) ∧ ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b , c ) → C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ¬ B ( b , d ) ⊕ ∃ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b ) ∨ ∃ c C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b , d ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b , d ) ∨ ∀ c C ( c )"}
+{"Inputs":"∃ a A ( a , b ) ∨ ¬ B ( a )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b ) ∨ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b , d ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ¬ B ( b ) ∧ ∀ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b , c ) ∧ ¬ C ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b , e ) ⊕ ∃ c C ( c , f )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b , d ) → ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b ) ∨ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a , b ) → B ( a ) ⊕ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b , d ) ∨ ∀ c ¬ C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a , b ) ∧ C ( a , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b , d ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∀ b ( ¬ B ( b , c ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∃ a A ( a , b ) ⊕ ¬ B ( a , c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b ) ⊕ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b ) → ¬ C ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∃ b ( B ( b ) → C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b ) ⊕ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b , d ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∃ b ( B ( b ) → ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a , b ) ∨ C ( a , c ) )"}
+{"Inputs":"∀ a A ( a ) → ¬ B ( a , b )"}
+{"Inputs":"∃ a ¬ A ( a , c ) → ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b B ( b ) )"}
+{"Inputs":"∀ a A ( a ) → B ( a )"}
+{"Inputs":"A ( a ) ⊕ ∃ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b ) ∨ ∃ c C ( c , d ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b ) ∧ ∃ c C ( c , d )"}
+{"Inputs":"∃ a ¬ A ( a ) ∧ ∃ b B ( b )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∃ b ( B ( b , c ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ B ( a )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b , d ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b , e ) ∨ ∀ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a ) ⊕ ∀ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∃ b ( B ( b ) ∧ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b , d ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b , d ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b ) ∧ ¬ C ( b , c ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b , d ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b , d ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b ( ¬ B ( b , d ) ⊕ C ( b , e ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b ) ∨ ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) ∨ ¬ C ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b ) ∨ ∃ c C ( c ) ) )"}
+{"Inputs":"∃ a ¬ A ( a ) → ∃ b ¬ B ( b , c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b , e ) ∨ ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) → B ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a , c ) ⊕ ∃ b ¬ C ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b ) → ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b ) ∧ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∃ a A ( a ) ∧ ∀ b B ( b )"}
+{"Inputs":"∀ a ( A ( a , b ) ⊕ B ( a ) ⊕ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b , d ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b , d ) → ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b ) → ∃ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∃ b ( B ( b ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∃ a A ( a , c ) ∨ ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b , c ) ∧ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( B ( b , d ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b , d ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ¬ B ( a , b ) ∨ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∀ b ( ¬ B ( b , d ) ∧ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ B ( a , b ) → C ( a ) )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∃ b ( B ( b , c ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ¬ B ( a , b ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b , d ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b , d ) ⊕ ∃ c C ( c , e ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∀ b ( ¬ B ( b , c ) ∨ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) ∧ C ( a , b ) )"}
+{"Inputs":"∃ a A ( a ) ⊕ ∃ b B ( b )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b , d ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∃ b ( B ( b , c ) → ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b , d ) → ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b , d ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∃ a ( A ( a ) ∧ ∃ b B ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ¬ B ( a , b ) ∧ C ( a , c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∀ b ( B ( b ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ¬ B ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , d ) → ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ¬ B ( a , b ) ∧ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a ) ∧ ∀ b C ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b , e ) ⊕ ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b ) ∨ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b , d ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( ¬ B ( b ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b ) ⊕ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∃ b ( B ( b ) → C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a , b ) ∨ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b , d ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , c ) ⊕ ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b , c ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ¬ B ( a , b ) ∧ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∃ b ( B ( b ) ⊕ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b , e ) → ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ¬ B ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b , d ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∀ b B ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( ¬ B ( b , d ) → ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a , b ) → ¬ B ( a , c ) ∧ ¬ C ( a , d ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( ¬ B ( b , c ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b ) ∨ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∀ b ( B ( b ) ∨ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b ) ∨ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b , c ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( ¬ B ( b , d ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b ) ⊕ ∃ c C ( c , d )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∃ a A ( a , c ) → ∃ b B ( b )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b , e ) ∧ ∃ c ¬ C ( c , f )"}
+{"Inputs":"A ( a , c ) → ∃ b B ( b , d )"}
+{"Inputs":"∀ a ( A ( a , b ) ∨ B ( a , c ) ∨ C ( a , d ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b , e ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b B ( b ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∀ b ( ¬ B ( b , d ) → C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∀ b ( B ( b , d ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b , e ) → ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b , d ) ∨ ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b , e ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b , d ) ∨ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b ) ∨ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b ) ⊕ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a ) ⊕ ∃ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∀ b ( B ( b ) ∨ C ( b ) ) )"}
+{"Inputs":"∃ a ¬ A ( a , b ) ⊕ B ( a , c )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) ⊕ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b , d ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b ) → ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ¬ B ( b , d ) ∨ ∀ c C ( c , e ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b , e ) ∧ ∃ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b ) → ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a ) ∧ ¬ C ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a , c ) → ∀ b C ( b ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∀ b ( ¬ B ( b ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∃ b ( B ( b ) ∨ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ ¬ B ( a , c ) ∧ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ ¬ B ( a , c ) ⊕ C ( a , d ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( ¬ B ( b ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b , e ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b , e ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b , d ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b , c ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) → ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b , c ) → ¬ C ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b ) ∧ ∃ c C ( c , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b ) → ∃ c C ( c , d )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b ) ∨ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a , c ) → ∃ b B ( b )"}
+{"Inputs":"∀ a ¬ A ( a , c ) ∧ ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b , d ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a , c ) ∨ ∀ b ¬ C ( b , d ) )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b , d ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b , c ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b ) ∨ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b ) ⊕ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"¬ A ( a , c ) ∧ ¬ B ( b , d )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∀ b B ( b , d ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b ( ¬ B ( b , d ) ∨ C ( b , e ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b ) ⊕ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∃ b ( B ( b ) ⊕ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∀ b ( ¬ B ( b ) → C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a ) ⊕ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b , c ) ∨ ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ¬ B ( b , d ) ⊕ ∀ c C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b , c ) ⊕ ¬ C ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a , c ) ⊕ ∀ b ¬ C ( b , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b , d ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a , b ) ∨ C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b , d ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b , d ) ⊕ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ B ( a , c ) ∧ ¬ C ( a , d ) )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b ¬ B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b , e ) ⊕ ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ¬ A ( a , c ) ⊕ ∃ b B ( b )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ ¬ B ( a , c ) → ¬ C ( a , d ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b , c ) → C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b , d ) → ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b ) ∨ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b ) ∧ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∃ a ¬ A ( a ) → ∀ b B ( b )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∃ b ( ¬ B ( b , c ) → C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b , e ) ∧ ∀ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∀ b ¬ B ( b , d ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b , d ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ B ( a , c ) ∧ C ( a ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b , e ) → ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ¬ B ( b ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b , d ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b , d ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ¬ B ( a , b ) ∨ C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a , c ) ∧ ∀ b B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a , c ) → ∀ b C ( b ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∀ b ( B ( b , d ) → ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a , b ) ∧ C ( a ) )"}
+{"Inputs":"¬ A ( a ) → B ( b )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b , c )"}
+{"Inputs":"∃ a A ( a ) → ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∀ b ( B ( b , c ) ⊕ C ( b , d ) ) )"}
+{"Inputs":"A ( a ) ∧ ¬ B ( b )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b , d ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b , d ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∀ b ( ¬ B ( b , d ) ∨ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ ¬ B ( a , c ) ⊕ ¬ C ( a , d ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∃ b ( B ( b ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b ) → ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b , c ) → C ( b , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b , d ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a , b ) ∨ C ( a ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b , d ) ⊕ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b , d ) ⊕ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b , e ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b ) ∨ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b ) ∧ ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∀ b B ( b , d ) )"}
+{"Inputs":"A ( a ) ∧ ∀ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∀ b ( ¬ B ( b ) ∨ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ∨ ¬ B ( a , c ) → C ( a ) )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∃ b ( B ( b ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b , d ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b ) → C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b , d ) ∨ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b ) → ∃ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b ) → ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∃ a ( A ( a , c ) ∧ ∀ b ¬ B ( b , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b ) → ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∃ b ( B ( b ) ∨ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∃ b ( B ( b ) ∧ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b ) ∧ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b ) ∧ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∃ b ( ¬ B ( b , d ) → C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b , d ) ∨ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b , d ) ∨ ∀ c ¬ C ( c , e ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∀ b ( B ( b ) ⊕ C ( b , c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b ) → ∀ c C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b ) ∨ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∃ a A ( a , c ) → ∀ b ¬ B ( b , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b ) ∧ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b , d ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∀ b B ( b ) )"}
+{"Inputs":"∀ a ( A ( a , b ) → B ( a ) ∧ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b , d ) → ∃ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , d ) ⊕ ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b , e ) ∧ ∃ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b ) ⊕ ∃ c C ( c , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∃ a A ( a ) ∧ B ( a )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∃ b ( ¬ B ( b , d ) ∧ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∃ a ¬ A ( a , b ) ∧ ¬ B ( a )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ¬ B ( a , b ) → C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b ) ⊕ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b ) ⊕ ¬ C ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b ) ∧ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b ) ∧ ∀ c C ( c , d ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∃ b ( ¬ B ( b ) ⊕ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b ) ⊕ ∃ c C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a , b ) ⊕ C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ∨ B ( a , c ) ⊕ ¬ C ( a ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b ) → ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b , e ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ¬ B ( b ) → C ( b , c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∃ b ( B ( b ) ∧ ¬ C ( b , c ) ) )"}
+{"Inputs":"∃ a ¬ A ( a ) → ∀ b B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b ) ⊕ ∀ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b ) → ∃ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∃ a ¬ A ( a ) ∨ ∀ b B ( b )"}
+{"Inputs":"∀ a A ( a , c ) → ∃ b B ( b , d )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∃ a ¬ A ( a , c ) ∨ ∃ b B ( b )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b , d ) ∨ ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ¬ B ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b ) ∨ ∃ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b ) → ∃ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) ∨ ∃ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b , d ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∀ b ( B ( b , d ) ⊕ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b ) ∧ ∃ c C ( c , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b , c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b ) → ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b , d ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b , d ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b , d ) → ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∃ a ¬ A ( a ) ∨ ∃ b B ( b , c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ( B ( b ) ∧ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b ) → C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b ) → ∃ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b ) ∨ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b ) ∨ ∃ c C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b , e ) ∧ ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , c ) → C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b , c ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b , d ) ⊕ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∃ b ( ¬ B ( b , d ) ∨ C ( b , e ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∀ b ¬ B ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∀ b ( B ( b ) → ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( ¬ B ( b , d ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a , c ) ∧ ∃ b ¬ C ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b ) ∨ ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b , d ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b ) ⊕ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( ¬ B ( b , c ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b , e ) ∧ ∀ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ( B ( b ) ∨ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b , d ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b , d ) ∧ ∃ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b ) ∨ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b ) ⊕ C ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∀ b ( B ( b , d ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b ) → ∀ c C ( c , d ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b , d ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ¬ B ( a , b ) ⊕ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ∨ ¬ B ( a ) ∨ C ( a , c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b ( ¬ B ( b , d ) ∨ ¬ C ( b , e ) ) )"}
+{"Inputs":"∃ a ¬ A ( a ) ∨ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) ∧ ¬ C ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ B ( a ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b , e ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b ) ∨ ¬ C ( b , c ) ) )"}
+{"Inputs":"∃ a A ( a ) ∧ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b , d ) → ∀ c C ( c )"}
+{"Inputs":"A ( a ) ∨ ¬ B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b ) ∧ ∀ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , d ) ∧ ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a ) ⊕ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b ) ∨ ∃ c C ( c , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b , d ) → ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b , d ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a ) → ∃ b C ( b , c ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b , d ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , d ) ⊕ ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∃ b ( ¬ B ( b ) ∧ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b , e ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b ) ∧ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ⊕ B ( a ) ⊕ C ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ¬ B ( a ) ∨ C ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a , c ) ⊕ ∃ b C ( b , d ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b , e ) → ∃ c C ( c , f )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b , d ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b , e ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b ) ∨ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( ¬ B ( b , c ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b , d ) ⊕ ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b , d ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a ) ∨ ∀ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b , d ) → ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b , d ) ∨ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∃ b ( B ( b , c ) ∧ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b , d ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ B ( a ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b , e ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ¬ B ( b ) ∧ ∀ c C ( c ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b , d ) ⊕ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) ⊕ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b ) ∨ ∀ c C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b , e ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b , c ) → ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b , d ) → ∃ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∃ b ( ¬ B ( b ) ⊕ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∀ b ( B ( b , d ) ⊕ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ¬ A ( a , c ) ∧ ∃ b ¬ B ( b , d )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b , e ) ⊕ ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) ∧ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a , b ) ⊕ C ( a , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b , d ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b , d ) ∧ ∀ c ¬ C ( c , e ) )"}
+{"Inputs":"∃ a ( ¬ A ( a ) → B ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ¬ B ( b , d ) ∨ ∃ c C ( c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ¬ B ( a , b ) → ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b ) → ∃ c C ( c , d )"}
+{"Inputs":"∀ a A ( a , c ) → ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b , c ) → ¬ C ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b ) ⊕ ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b , d ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b , d ) ⊕ ∃ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b , d ) → ∃ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a , c ) → ∃ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a , c ) → ∀ b ¬ C ( b ) )"}
+{"Inputs":"∃ a A ( a , b )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b , d ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b , e ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ¬ B ( b , c ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∃ b ( B ( b ) ⊕ C ( b , d ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b , d ) → ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , c ) ∧ ∀ b B ( b , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b , d ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b , d ) ∨ ∀ c ¬ C ( c , e ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b , e ) ∧ ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ¬ B ( b , c ) ∧ C ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∃ a ¬ A ( a ) ⊕ ¬ B ( a )"}
+{"Inputs":"∀ a ( A ( a , b ) → B ( a ) ⊕ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ B ( a , c ) → C ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ ¬ B ( a , c ) ∨ C ( a , d ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ B ( a ) → C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b , d ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a ) ∧ C ( a , b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b , d ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b , c ) ∨ C ( b , d ) )"}
+{"Inputs":"∃ a A ( a ) ∧ ∀ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b , c ) ∨ ¬ C ( b , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b , d ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b ) ∨ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , d ) → ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b , d ) ∨ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b ) ⊕ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b , d ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∀ b ( ¬ B ( b ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b ) ∨ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b , e ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b , e ) ⊕ ∃ c C ( c , f )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ B ( a ) ∧ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∀ b ( ¬ B ( b ) → C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ B ( a , c ) ⊕ ¬ C ( a , d ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ B ( a ) ⊕ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b ) ∧ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b ) ⊕ ∀ c C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b ) ∨ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a , b ) ∨ C ( a ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b , d ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b , d ) → ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∃ b ( ¬ B ( b ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b , c ) ∨ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b , d ) → ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b , d ) → ∃ c C ( c , e ) )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a , b ) → C ( a , c ) )"}
+{"Inputs":"A ( a ) → ∀ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b , c ) → ¬ C ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( ¬ B ( b ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b ) → ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∃ b ( ¬ B ( b , c ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b , d ) → ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b ) ∨ ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a ) ∨ C ( a ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b , c ) → ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b ) ∧ ∃ c C ( c ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b ) ∨ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( ¬ B ( b ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( ¬ B ( b , d ) → ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b , e ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ B ( a ) ∨ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b )"}
+{"Inputs":"∀ a ( A ( a , b ) → ¬ B ( a , c ) ⊕ C ( a ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∃ b ( B ( b , c ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∃ b ( B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ⊕ ¬ B ( a ) ⊕ ¬ C ( a ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b , e ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b ) ⊕ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∀ b ( ¬ B ( b , c ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∃ a ( ¬ A ( a ) ∧ ∀ b B ( b , c ) )"}
+{"Inputs":"A ( a , c ) → B ( b , d )"}
+{"Inputs":"A ( a , c ) ∧ B ( b , d )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b ( ¬ B ( b ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b ) ⊕ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b , c ) ⊕ C ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ⊕ B ( a , c ) → C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b ) ⊕ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → B ( a , b ) ⊕ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a ) ⊕ C ( a , b ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , c ) ⊕ ∃ b B ( b , d )"}
+{"Inputs":"∃ a A ( a , c ) ∨ ∃ b ¬ B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b ) ∨ ∃ c C ( c , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ¬ B ( a , b ) ⊕ ¬ C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∀ b ( ¬ B ( b , c ) ∧ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b , d ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∀ b ( ¬ B ( b ) → ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b , d ) ⊕ ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∀ b ( ¬ B ( b , d ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b , e ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a , b ) → C ( a ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b ) ∧ ∃ c C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b , d ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b , c ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a , c ) ∧ ∃ b B ( b )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b , e ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , b ) ⊕ ¬ B ( a ) ∧ ¬ C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , c ) ⊕ ∀ b B ( b )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b , d ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a , b ) ∨ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b , d ) ⊕ ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b ) → ¬ C ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a , c ) → ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b , d ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , c ) ∧ ∀ b B ( b )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b , d ) ⊕ ∃ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b ) → ¬ C ( b ) ) )"}
+{"Inputs":"∃ a ( ¬ A ( a ) ⊕ ¬ B ( a ) )"}
+{"Inputs":"∃ a A ( a , c ) → ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∃ a ¬ A ( a , b ) ∧ B ( a )"}
+{"Inputs":"∃ a ( ¬ A ( a , b ) → B ( a , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b ) ⊕ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a , c ) → ∀ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( B ( b , d ) ⊕ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b ) ∨ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b , e ) → ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b , e ) ⊕ ∀ c C ( c , f )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) → ∃ c C ( c , d )"}
+{"Inputs":"A ( a ) ⊕ B ( b , c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b , e ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∃ b ( ¬ B ( b ) → C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b ) → ∃ c C ( c ) )"}
+{"Inputs":"∃ a ( ¬ A ( a ) ∧ B ( a , b ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b , d ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b , d ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b ) ∧ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b , c ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b , d ) ∨ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b ) ∧ ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b ) ⊕ ∀ c C ( c , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b ) ⊕ ∀ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b ) ∧ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b , e ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b ) → C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b ) ∨ ∃ c C ( c , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b ) ∧ ∃ c C ( c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b , e ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b ) → ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b , d ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ( ¬ B ( b ) → ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b ) → ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a , b ) ∨ B ( a , c ) → ¬ C ( a , d ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b , d ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∃ b ( B ( b , d ) ∧ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b , d ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ( ¬ B ( b ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b , c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b ) ∨ ∀ c C ( c ) )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∀ b ( B ( b ) ∧ C ( b , d ) ) )"}
+{"Inputs":"A ( a ) ∨ B ( b )"}
+{"Inputs":"∃ a A ( a , c ) ∨ ∃ b B ( b )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b , e ) ∨ ∃ c C ( c , f )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b , d ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b , e ) ∨ ∃ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b ) → ∀ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∀ b ( ¬ B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b ) ∨ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b , d ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b , e ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b ) → C ( b , c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b , d ) → ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ ¬ B ( a , c ) ∧ C ( a , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) ∧ ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b , e ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∃ a A ( a , c ) → ∀ b B ( b , d )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∃ b ( B ( b , c ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a ) → ∃ b C ( b ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b , d ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ( ¬ B ( b ) ∧ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b , d ) → ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b , d ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b , d ) → ∀ c C ( c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b , e ) → ∃ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b , c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∃ b ( B ( b , d ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a , b ) → ¬ B ( a ) ∧ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( ¬ B ( b , d ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b , d ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b , d ) ∨ ∃ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b , d ) ⊕ ∀ c C ( c , e ) )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b ¬ B ( b ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b , d ) ∨ ∀ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a ) ∧ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a , c ) ⊕ ∃ b C ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b , e ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b , d ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b ) ∨ ∃ c C ( c , e )"}
+{"Inputs":"∃ a ¬ A ( a , c ) ⊕ ∀ b B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) → ∃ c C ( c , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a ) ⊕ ∀ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∃ b ( ¬ B ( b , d ) ∨ C ( b ) ) )"}
+{"Inputs":"∃ a ¬ A ( a ) ⊕ ∃ b B ( b )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ¬ B ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ¬ B ( b ) → ∃ c C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b ) → ∃ c C ( c , d ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b , d ) ⊕ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b , d ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b , d ) ∨ ∀ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a ) ∧ ¬ C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∃ a ¬ A ( a ) → ¬ B ( a )"}
+{"Inputs":"∃ a ( A ( a ) → ∀ b ¬ B ( b ) )"}
+{"Inputs":"∃ a ¬ A ( a , c ) → ∃ b ¬ B ( b , d )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b , d ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b , d ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b ) ⊕ ∃ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b ) ∨ ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∀ b ( B ( b ) ∧ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( B ( b , c ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b , d ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b , d ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b , d ) → ∃ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a ( A ( a , b ) → ¬ B ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ¬ B ( a ) ∨ ¬ C ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b ) ⊕ ¬ C ( b , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b , d ) ∨ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∃ a ¬ A ( a , c ) ∧ ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b , d ) → ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → B ( a , b )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b , d ) ⊕ ∀ c C ( c ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b , d ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b ) → ∀ c C ( c , d ) )"}
+{"Inputs":"∃ a ¬ A ( a ) ⊕ ∀ b B ( b , c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b , d ) ⊕ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b ) → ∃ c C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∃ b B ( b , c ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b , c ) ⊕ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b ) → ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ∨ B ( a ) → ¬ C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ ¬ B ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∀ b ( B ( b ) → C ( b , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( ¬ B ( b , d ) ⊕ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b ) ⊕ ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ B ( a , b ) ⊕ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b , d ) ∧ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ¬ B ( b , d ) ⊕ ∃ c C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a ) ⊕ ∃ b C ( b , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b , c ) → C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b , d ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b ) ⊕ ∀ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b , c )"}
+{"Inputs":"∃ a ( ¬ A ( a , b ) ⊕ B ( a ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b , e ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b ) ⊕ ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∀ b ( ¬ B ( b ) ⊕ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b , c ) → C ( b , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∃ b ( B ( b , c ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a , c ) ⊕ ∀ b ¬ C ( b , d ) )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b ¬ B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b , d ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b , e ) → ∃ c C ( c , f )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b , d ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b B ( b , d ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ B ( a ) ∨ ¬ C ( a , b ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b ) ∧ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a , b ) ⊕ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a , b ) ∨ C ( a , c ) )"}
+{"Inputs":"A ( a ) → ∃ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ¬ B ( b ) → ∃ c C ( c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b , e ) → ∀ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∃ b ( B ( b ) → ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b , d ) ⊕ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , c ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ¬ B ( b , c ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∃ b ( B ( b ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b , d ) ∧ ∀ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a , b ) ∧ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∃ b ( B ( b , c ) → C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b ) ∨ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a , b ) ⊕ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b , d ) ∧ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b B ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a ) ⊕ C ( a ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b ) → ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a , c ) → ∃ b C ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∃ b ( ¬ B ( b ) → C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ ¬ B ( a ) ∨ ¬ C ( a ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b ) ∨ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b , d ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∃ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b )"}
+{"Inputs":"∃ a ¬ A ( a , c ) ⊕ ∃ b ¬ B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b , d ) ∨ ∀ c C ( c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ B ( a , b ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∃ b ( B ( b ) → ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∃ b ( ¬ B ( b , c ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b , d ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b , c ) → C ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b , e ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b , d ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ ¬ B ( a , c ) → ¬ C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a , c ) ∨ ∀ b ¬ B ( b , d )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b ( ¬ B ( b , d ) ∧ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b , e ) ∧ ∀ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"¬ A ( a , c ) ∧ ∃ b B ( b )"}
+{"Inputs":"¬ A ( a , c ) ⊕ ¬ B ( b , d )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∃ b B ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∃ b ( ¬ B ( b ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b , d ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∀ b ( ¬ B ( b ) → C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b , c ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∃ a ¬ A ( a , c ) ∧ ∀ b B ( b , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b , d ) → ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ( A ( a , b ) ⊕ ¬ B ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b , c ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b , e ) ∧ ∀ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b , d ) → ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b , e ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b , d ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ ¬ B ( a ) ∧ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∀ b ( ¬ B ( b ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b ) ⊕ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b ) ∧ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( B ( b , d ) ⊕ C ( b , e ) ) )"}
+{"Inputs":"A ( a ) ∨ ∃ b ¬ B ( b )"}
+{"Inputs":"¬ A ( a , c ) ⊕ ∃ b ¬ B ( b , d )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ( B ( b , c ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b ) → ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b , c ) ⊕ ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b ) ∧ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∀ b ( B ( b , d ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ⊕ ∃ b ¬ B ( b , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b , c ) → C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b , d ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∀ b ( B ( b ) ∨ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b ) ∧ C ( b , c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b ) ⊕ ∃ c C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b , e ) ∨ ∃ c C ( c , f )"}
+{"Inputs":"∃ a ¬ A ( a ) → ∃ b B ( b )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b , d ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∃ b ( B ( b , c ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , c ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b ) ∨ ¬ C ( b , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b , d ) ∨ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∃ a ( ¬ A ( a , c ) → ∃ b B ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a ) ∧ C ( a , b ) )"}
+{"Inputs":"∃ a ( ¬ A ( a , b ) → ¬ B ( a ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b , d ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∃ a A ( a ) ⊕ ∀ b B ( b )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b ) ⊕ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b , d ) ∨ ∃ c C ( c , e ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( ¬ B ( b , c ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b ) ∨ ∀ c ¬ C ( c , d )"}
+{"Inputs":"A ( a )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b ) → ∀ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , b ) → B ( a ) ∨ C ( a , c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∀ b ( B ( b ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a , c ) ⊕ ∃ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b , d ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b , e ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b ) ∨ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b , d ) ⊕ ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∃ a ¬ A ( a ) → ¬ B ( a , b )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b ) → ∀ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b ) ∧ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b , d ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b , d ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b , d ) ∧ ∃ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( ¬ B ( b , c ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b ) ∨ ∃ c C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b ) ∨ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b ) ⊕ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b , d ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b , e ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b , d ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b ) ⊕ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b , c ) ∨ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , d ) → ∃ c ¬ C ( c , e ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∀ b ( ¬ B ( b , d ) ∧ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b ) ∧ ∃ c C ( c , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ( ¬ B ( b ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b ) ⊕ ∃ c C ( c , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b ) ∧ ∀ c C ( c , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b , c ) ∨ C ( b ) ) )"}
+{"Inputs":"∃ a A ( a ) ∨ ∀ b B ( b )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b , d ) → ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b , d ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∃ a ( A ( a , c ) ⊕ ∀ b B ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∃ b ( ¬ B ( b ) ∧ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → B ( a , b ) ∨ C ( a ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b , e ) ∧ ∃ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b ) ∧ ¬ C ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b , e ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b , d ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( ¬ B ( b ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b , d ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b ) ∨ ¬ C ( b ) )"}
+{"Inputs":"∃ a ( A ( a , b ) ∧ ¬ B ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( B ( b , d ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b , d ) ∧ ∀ c C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b , c ) ∨ ¬ C ( b ) )"}
+{"Inputs":"¬ A ( a , c ) ∨ B ( b )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b , d ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a , c ) ∨ ∀ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ∨ B ( a ) → C ( a , c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( B ( b , c ) → ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ¬ B ( a ) ⊕ C ( a , b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b , e ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b ) → ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b , d ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b ) ∧ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∃ b ( ¬ B ( b ) → C ( b , c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ B ( a ) ∨ ¬ C ( a , b ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b ) ⊕ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b ) ⊕ ∃ c C ( c ) )"}
+{"Inputs":"∀ a ¬ A ( a , c ) ∨ ∃ b ¬ B ( b , d )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b , d ) ∨ ∀ c C ( c , e )"}
+{"Inputs":"¬ A ( a ) ∧ ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b ) ⊕ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b , d ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b ) ⊕ ∀ c C ( c , d ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b , c ) → ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b ) → ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b , e ) → ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b ) ∧ ∀ c C ( c , d )"}
+{"Inputs":"¬ A ( a ) ∧ ¬ B ( b )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b , d ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b ) ∧ ∃ c C ( c , d ) )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b , d ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a ) ∨ ∀ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b , d ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b , c ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∀ b B ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) → ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ¬ B ( b , c ) ⊕ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ¬ B ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b , c ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b ) ∨ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∃ b ( ¬ B ( b ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∃ b ( B ( b ) → C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b , e ) → ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b , d ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( ¬ B ( b ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b , c ) ∨ ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) → C ( a , b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( ¬ B ( b , d ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b ) ∨ ∀ c C ( c , d )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b , d ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b , c ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b ) ∨ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b , d ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b ¬ B ( b ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b ) → ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b , d ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b , d ) → ∃ c ¬ C ( c , e ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a ¬ A ( a , c ) ⊕ ∃ b B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a , b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∃ b ( ¬ B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b , d ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∃ a ( ¬ A ( a , b ) ∧ B ( a , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b , d ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a ) ⊕ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b , d ) ∨ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b , d ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b ) ⊕ ∃ c ¬ C ( c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b , e ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b ) → ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∀ b ( B ( b ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b , d ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b , d ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ¬ B ( b ) ∧ ∀ c C ( c ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b , d ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a ) ∧ ∀ b ¬ C ( b , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ¬ B ( b , c ) → ¬ C ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b , e ) ∧ ∃ c C ( c , f )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ B ( a ) → ¬ C ( a , b ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b , d ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ¬ B ( b , c ) ∨ ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ B ( a , c ) ∧ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ⊕ ¬ B ( a , c ) ∧ C ( a , d ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∀ b ( ¬ B ( b , d ) ∨ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b ) ⊕ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b ) ∧ ∃ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b ) ∨ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b ) ⊕ ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b , d ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b ) → ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( ¬ B ( b ) ⊕ C ( b , c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b , d ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"A ( a , c ) ∧ ∀ b B ( b , d )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b ) ⊕ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b , e ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"A ( a , c ) ∨ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∀ b ( ¬ B ( b ) ∨ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b , d ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b , d ) ⊕ ∃ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∀ b ( B ( b , d ) → C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , c ) ∧ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , d ) ∨ ∀ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b , c ) ⊕ C ( b , d ) ) )"}
+{"Inputs":"∃ a ( A ( a ) → ¬ B ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b ) ∧ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b ) ⊕ ∀ c C ( c ) )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( B ( b ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b ) ∧ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b ) ∧ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b , d ) ∨ ∃ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a , b ) → ¬ C ( a ) )"}
+{"Inputs":"∃ a ¬ A ( a ) → ∃ b B ( b , c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b , d ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∀ b ( ¬ B ( b , d ) ∧ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b ) ∨ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b ) ∨ ∀ c C ( c , d ) ) )"}
+{"Inputs":"A ( a ) ⊕ ∃ b B ( b , c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b , d ) → ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b , e ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b , d ) ∨ ∀ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ( ¬ B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b , e ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∃ a ¬ A ( a ) ∨ ∃ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b , c ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∃ a ¬ A ( a , c ) ∧ ∀ b ¬ B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∃ b ( B ( b ) → C ( b , c ) ) )"}
+{"Inputs":"∃ a ¬ A ( a ) ∨ ∀ b ¬ B ( b , c )"}
+{"Inputs":"∃ a A ( a ) ∨ ∀ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b ) → ∀ c C ( c , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) ∨ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b ) ⊕ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b , c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b , d ) ∨ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b , e ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b , d ) → ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ¬ B ( b , d ) ⊕ ∀ c C ( c , e ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∃ b ( B ( b , c ) → C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b , d ) ∨ ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b ) ⊕ ∀ c C ( c , d ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b , d ) ∧ ∃ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b ) ⊕ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b ) → ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b , c ) → C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b ) ∨ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b , d ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∃ a ( ¬ A ( a ) ∨ ¬ B ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ¬ B ( a ) ∧ C ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b , c ) ∨ ¬ C ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∃ b ( ¬ B ( b , d ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → B ( a ) ∨ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b ) → ∃ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b , d ) ∨ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∃ b ( ¬ B ( b ) ∨ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a ) → C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b , d ) → ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → B ( a , b ) ∧ C ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ¬ B ( a , b ) → C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , d ) ∧ ∀ c ¬ C ( c , e ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b , e ) → ∃ c C ( c , f )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b , d ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ B ( a ) ⊕ C ( a , b ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b ) → ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∃ b ( B ( b ) ⊕ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∃ b ( B ( b , d ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ¬ B ( a , b ) ∧ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b ) ∨ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , d ) ∧ ∃ c ¬ C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a , c ) ∨ ∃ b ¬ C ( b , d ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∀ b ( B ( b ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ⊕ B ( a ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( B ( b , d ) ⊕ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∃ b ( ¬ B ( b , c ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ ¬ B ( a , c ) → C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a ) ⊕ ∀ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ B ( a , b ) ⊕ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b ) ∧ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) → ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b ) ∨ ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∃ b ( B ( b , c ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a ) ∨ ¬ C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) ∨ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b , d ) → ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b , e ) ∨ ∀ c ¬ C ( c , f )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∀ b ( B ( b , d ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∀ b ( B ( b ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b , d ) → ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b , e ) → ∀ c C ( c , f )"}
+{"Inputs":"¬ A ( a , c ) → ∀ b B ( b )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∃ b ( B ( b , d ) ∧ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , c ) ∨ C ( b , d ) ) )"}
+{"Inputs":"∃ a ( ¬ A ( a , b ) ∨ ¬ B ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b , d ) ∨ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b , d ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∃ a ( ¬ A ( a , b ) ∨ B ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b ) ∧ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a ) ⊕ C ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b ) → C ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b ) → ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∀ b ( B ( b , d ) ∨ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b ) ⊕ ∀ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∃ a ( ¬ A ( a , b ) → ¬ B ( a , c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b ( B ( b , d ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b ) ∧ ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b , e ) ⊕ ∃ c C ( c , f )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b , d ) → ∀ c ¬ C ( c )"}
+{"Inputs":"¬ A ( a ) ⊕ B ( b )"}
+{"Inputs":"∀ a ¬ A ( a , c ) ∧ ∃ b B ( b , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b ) → ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b , c ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) ∧ ∃ c C ( c , d )"}
+{"Inputs":"¬ A ( a , c ) → ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b )"}
+{"Inputs":"∀ a ( A ( a , b ) → ¬ B ( a , c ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b , d ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b ) ⊕ C ( b ) ) )"}
+{"Inputs":"∃ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) ⊕ ∀ b ¬ C ( b , c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ ¬ B ( a ) → ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a ) → ∀ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ¬ B ( a , b ) ⊕ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( B ( b , d ) → C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( ¬ B ( b ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , b ) ∧ ¬ B ( a )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) ⊕ ∀ c C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b , d ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a , c ) ∧ ∃ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a , c ) ⊕ ∀ b ¬ B ( b , d )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ B ( a , b ) ∧ C ( a , c ) )"}
+{"Inputs":"∃ a ( A ( a ) ∨ ¬ B ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b , d ) → ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b , c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b , d ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b ) → ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b , d ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b ) ⊕ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ¬ B ( b , d ) ∨ ∀ c ¬ C ( c , e ) )"}
+{"Inputs":"∃ a ¬ A ( a , c ) ∧ ∃ b B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) ∧ ∃ b C ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b ( B ( b ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∀ b ( ¬ B ( b ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b , d ) ∨ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , c ) → C ( b ) ) )"}
+{"Inputs":"∃ a A ( a , c ) ⊕ ∀ b B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b , c ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( B ( b ) → C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a ) ⊕ ∃ b C ( b , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ B ( a , b )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b , d ) ∨ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∀ b ( B ( b ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b B ( b , d ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a , b ) ⊕ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b ) ∧ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∃ b ( B ( b , c ) → ¬ C ( b ) ) )"}
+{"Inputs":"A ( a ) ∨ ¬ B ( b )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b ) → ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( B ( b , c ) ∧ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b , d ) → ∀ c C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∃ b ( ¬ B ( b , c ) ∧ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a , b ) ⊕ B ( a )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a ) ∧ ∀ b ¬ C ( b , c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b , e ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , b ) ∨ ¬ B ( a ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b ) → ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a ) → ∀ b ¬ C ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b ) → ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , c ) ∧ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b , c ) ∨ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a , c ) ⊕ ∀ b C ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b , d ) ⊕ ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b , e ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a , c ) ∨ ∀ b C ( b ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b , d ) ∨ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b ) ∨ ∀ c C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b , d ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b , d ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b , d ) → ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b ) → ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a ) → ∃ b ¬ C ( b , c ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b ) ∨ ∃ c C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b ) ⊕ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ B ( a ) ⊕ C ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b ) → ∃ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ ¬ B ( a , c ) ∧ C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b ) ∨ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a , b ) → C ( a , c ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b , e ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a ) → ∀ b C ( b , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b ) ∨ ∀ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , c ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a ) ∨ C ( a , b ) )"}
+{"Inputs":"A ( a , c ) ⊕ B ( b , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b , e ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b , d ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b , d ) ⊕ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b , e ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b ) ∨ ∀ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∀ b ( B ( b , d ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b ) ∧ ∃ c C ( c , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b , d ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b , d ) → ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b , d ) ∨ ∃ c C ( c )"}
+{"Inputs":"∃ a ¬ A ( a , c ) → ∃ b B ( b , d )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( B ( b , d ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b ) → ¬ C ( b ) ) )"}
+{"Inputs":"¬ A ( a , c ) ∨ ¬ B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b , d ) → ∃ c ¬ C ( c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b , e ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b , d ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b , d ) → ∀ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b , e ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) ⊕ ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b , d ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b ( ¬ B ( b ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∃ b ( B ( b , c ) → C ( b , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ B ( a , b ) → C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b , d ) → ∀ c C ( c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ ¬ B ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ¬ B ( b , c ) ∧ C ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b , e ) → ∃ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∀ b ( B ( b , d ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b ) → ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b , d ) ∧ ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∀ b ( B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b ) → ∀ c C ( c , d ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b , c ) ⊕ C ( b ) ) )"}
+{"Inputs":"∃ a A ( a ) ⊕ ¬ B ( a )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∃ b ( ¬ B ( b , c ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ∨ B ( a , c ) → C ( a , d ) )"}
+{"Inputs":"∃ a ( ¬ A ( a , b ) ⊕ ¬ B ( a , c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( ¬ B ( b , d ) ∧ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b , c ) → C ( b , d ) ) )"}
+{"Inputs":"∃ a A ( a , c ) ∧ ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b , d ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b , d ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∃ a ¬ A ( a , c ) → ∀ b ¬ B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b , d ) ∧ ∀ c C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ¬ B ( b , d ) → ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b ) → ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b ) ∨ ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , c ) ∨ ∃ b B ( b )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ( ¬ B ( b , c ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b ) ∨ ∀ c C ( c , d )"}
+{"Inputs":"∃ a ¬ A ( a , c ) ∧ ∃ b ¬ B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a ) ∧ C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b ) ∨ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∃ a ( ¬ A ( a ) ⊕ B ( a , b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b , e ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b ) ∧ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b , d ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b , d ) ∧ ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b ) ∨ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ¬ B ( a ) ∧ C ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , d ) ⊕ ∃ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( ¬ B ( b ) ∧ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b , c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) ∨ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b ) → ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) → ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b , d ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b ) → ∀ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b ¬ B ( b ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b ) ∨ ∀ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b , e ) → ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∃ a A ( a , c ) ∨ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a ) → ¬ C ( a ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b ) ∧ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a , c ) ∨ ∃ b C ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ¬ B ( a ) ∧ ¬ C ( a , b ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b , d ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b , d ) ∨ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , b ) ⊕ ¬ B ( a ) ∨ C ( a ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b , d ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b ) ∧ ¬ C ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b , e ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b ) ∨ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b , d ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b , c ) → C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b ) ∧ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b ) ∧ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a , c ) ∧ ∃ b ¬ B ( b , d )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b , d ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∃ b B ( b , c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b , e ) ∧ ∀ c C ( c , f )"}
+{"Inputs":"∃ a A ( a , c ) ∨ ∀ b B ( b )"}
+{"Inputs":"∀ a ¬ A ( a , c ) → ∃ b ¬ B ( b , d )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b ) ⊕ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a , c ) ∨ ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∀ b ( B ( b , d ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∃ b ( ¬ B ( b , c ) ∨ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b , d ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∃ b ( ¬ B ( b ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b ) ∧ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b ) ∧ ∀ c C ( c , d ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a ) ∧ ¬ C ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b ) → ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∃ b ¬ B ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( ¬ B ( b , c ) ⊕ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b , e ) ∨ ∀ c ¬ C ( c , f )"}
+{"Inputs":"∃ a A ( a , c ) ∧ ∃ b ¬ B ( b , d )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∀ b ( B ( b , c ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( B ( b , d ) ∨ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) ⊕ ∀ b C ( b , c ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b , e ) ∨ ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b , d ) ∧ ∃ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) ∨ C ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∀ b ( B ( b , c ) → C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b ) ∧ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b ) → ∃ c C ( c , d )"}
+{"Inputs":"¬ A ( a ) ∧ ∃ b B ( b )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) ∧ ∀ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∃ a ¬ A ( a ) ⊕ ¬ B ( a , b )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( ¬ B ( b ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a , c ) ∨ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∀ b ( B ( b ) ⊕ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∀ b ( ¬ B ( b ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∃ b ( ¬ B ( b ) ∨ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b , e ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b ) ⊕ ∃ c C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b , e ) ∨ ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b , d ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a , c ) → ∀ b B ( b , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b ) ⊕ ∀ c C ( c , d )"}
+{"Inputs":"∃ a ( A ( a ) ∨ B ( a ) )"}
+{"Inputs":"¬ A ( a ) ∨ ¬ B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b ) → C ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b ) → ¬ C ( b , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a , b ) ∧ ¬ C ( a ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b , c ) ∨ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b , d ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∀ b ( ¬ B ( b , d ) → C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b ) ∧ ∃ c C ( c , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∃ b ( B ( b ) → C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b ) → ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∃ b ¬ B ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) → ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b , d ) → ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∀ b B ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b ) ⊕ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b , d ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( ¬ B ( b ) ∧ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b , c ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a ) ∧ ∃ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∀ b ( B ( b , d ) ∧ C ( b , e ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b , d ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , c ) ⊕ ∀ b B ( b , d )"}
+{"Inputs":"¬ A ( a , c ) ∧ B ( b , d )"}
+{"Inputs":"∃ a ( ¬ A ( a , c ) ⊕ ∃ b ¬ B ( b , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b , d ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) ∧ ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b , e ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b , c ) ∧ C ( b , d ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∀ b ( ¬ B ( b , c ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b , d ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∀ b ( ¬ B ( b ) ∧ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a ) ∧ ∃ b C ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b , e ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b ) ∨ ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b , d ) → ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b , c ) → ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b , d ) ∧ ∃ c C ( c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b ) ⊕ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( ¬ B ( b ) → ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b , e ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b , e ) → ∀ c C ( c , f )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b ( B ( b , d ) → ¬ C ( b , e ) ) )"}
+{"Inputs":"A ( a , c ) ∨ ∀ b B ( b )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b ) ⊕ ∃ c C ( c , d )"}
+{"Inputs":"∃ a ( A ( a , b ) ∨ ¬ B ( a ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a ) → ∀ b C ( b ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b ) → ∃ c C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b ) ∧ ∀ c C ( c , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b , d ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( B ( b ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∃ a A ( a ) ∨ ∃ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b , d ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( ¬ B ( b , d ) ⊕ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a , b )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ¬ B ( a ) → ¬ C ( a , b ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b ) ∧ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b , e ) ⊕ ∀ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b ) ⊕ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∀ b ( B ( b , d ) ∧ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b , d ) → ∃ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∃ b ( B ( b , c ) ∨ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b , d ) ⊕ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ¬ B ( a , b ) ⊕ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b , c ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a ¬ A ( a , c ) → ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( ¬ B ( b ) → ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b ) → ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b , e ) ∧ ∃ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b , c ) → ¬ C ( b ) )"}
+{"Inputs":"∃ a ( ¬ A ( a , c ) ∨ ∃ b ¬ B ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ∨ B ( a , c ) ∧ C ( a , d ) )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a ) ∧ ∀ b C ( b ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b , d ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b ) ∧ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b , c ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b , e ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b ) ∨ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b , e ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b ) ⊕ ∃ c C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b ) ∧ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ B ( a )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ ¬ B ( a ) ∨ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∃ b ( B ( b , c ) ⊕ C ( b , d ) ) )"}
+{"Inputs":"∃ a ( A ( a , c ) ∨ ∀ b ¬ B ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b ) ⊕ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ B ( a ) ⊕ C ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( B ( b , c ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∃ a ¬ A ( a , c ) → ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b ) → ∃ c C ( c )"}
+{"Inputs":"¬ A ( a , c ) ∨ ∀ b ¬ B ( b , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b ) ∨ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a , c ) ⊕ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b , e ) ⊕ ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b ) → ∀ c C ( c , e )"}
+{"Inputs":"∃ a ( A ( a ) ⊕ ∀ b B ( b , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b , d ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b , d ) → ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∃ b ( ¬ B ( b ) → C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b , d ) → ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b ) ∧ ∀ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ ¬ B ( a , c ) ∧ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a , c ) ∧ ∃ b C ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b , c ) → C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ B ( a , c ) ∧ ¬ C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b , d ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a , b ) ∨ ¬ B ( a )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b )"}
+{"Inputs":"¬ A ( a , c ) ∧ ¬ B ( b )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b ) ∧ C ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ B ( a , c ) ∨ C ( a , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b , d ) ∨ ∃ c C ( c ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b , d ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∀ b ( ¬ B ( b ) → ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∃ b ( B ( b ) ⊕ C ( b ) ) )"}
+{"Inputs":"∃ a ¬ A ( a , c ) ∨ ∀ b ¬ B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b , c ) → ¬ C ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∀ b ( ¬ B ( b ) → C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a , c ) ∧ ∀ b C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b ) → ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b , d ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b , d ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , c ) ⊕ ∃ b ¬ B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b , d ) ∧ ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c , e ) )"}
+{"Inputs":"∃ a A ( a , c ) ⊕ ∀ b B ( b )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∃ b ( ¬ B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a , b ) ∧ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b ( ¬ B ( b , d ) → C ( b , e ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ ¬ B ( a ) ⊕ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b ) ∧ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) ⊕ ¬ C ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a , b ) → ¬ C ( a , c ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b ) ∨ ∃ c C ( c )"}
+{"Inputs":"A ( a , c ) ⊕ B ( b )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b , d ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a ) ∨ ¬ C ( a , b ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∃ a A ( a , c ) ∧ ∃ b B ( b , d )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ B ( a , c ) ∨ C ( a ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b , d ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b , d ) ⊕ ∀ c ¬ C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b ) ∨ ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a , c ) ∨ ∀ b ¬ C ( b , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b ) ∧ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b ( B ( b , d ) ∨ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b , d ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a ) ∧ ∃ b ¬ C ( b , c ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b , d ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a , b ) ⊕ B ( a , c )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b ) ∧ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( B ( b ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∀ b ( B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∀ b ( ¬ B ( b ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , c ) → ∀ b B ( b )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b , e ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∃ a ¬ A ( a , c ) ∨ ∀ b B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ¬ B ( b , d ) ∧ ∃ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a ( A ( a , b ) → B ( a , c ) ⊕ C ( a , d ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b , e ) ∧ ∀ c C ( c , f )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) ∧ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b , d ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a ) ∧ ∀ b C ( b , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b ) → ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∃ b ( B ( b , d ) ⊕ C ( b , e ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b ) → C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b , d ) → ∃ c ¬ C ( c , e ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b ) ⊕ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b , d ) → ∃ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b ) → ∀ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ¬ B ( a , b ) ∨ C ( a , c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∃ b ( ¬ B ( b , c ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∃ a A ( a ) ∨ ∃ b B ( b )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a ) ∨ ¬ C ( a , b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∃ b ( ¬ B ( b ) ⊕ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∃ b ( B ( b ) → ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) ∨ ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b , d ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ¬ B ( b ) ⊕ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b , d ) ⊕ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b ) ∧ ∃ c C ( c , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b ) ∧ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b ) ⊕ ∀ c C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b , e ) ⊕ ∀ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b ) ∧ ∀ c C ( c , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , b ) → B ( a , c ) ∧ C ( a , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a , b ) ∨ ¬ C ( a ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b ) ∨ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a , b ) ∧ C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b ) ∧ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ∨ B ( a ) ∧ ¬ C ( a ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ¬ B ( a , b ) ∨ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a ) ⊕ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b , c ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b , d ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b ) ∨ ∀ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ B ( a ) → C ( a , b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ B ( a , b ) ⊕ ¬ C ( a ) )"}
+{"Inputs":"∀ a A ( a , c ) ∧ ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b ) ∧ ∃ c C ( c ) ) )"}
+{"Inputs":"¬ A ( a ) ∧ ¬ B ( b , c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b ) ∧ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b , d ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∀ b ( ¬ B ( b ) ⊕ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b , e ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , c ) ∨ ¬ C ( b , d ) ) )"}
+{"Inputs":"∃ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b B ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b , c ) ∧ C ( b , d ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b , d ) → ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b , e ) ∧ ∀ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b , d ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b ) ∧ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ( B ( b , c ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( ¬ B ( b , d ) ⊕ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ⊕ B ( a ) ⊕ C ( a , c ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b , d ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b , d ) ⊕ ∃ c ¬ C ( c ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b , d ) ∨ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∃ a A ( a , c ) ⊕ ∃ b ¬ B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b , d ) ∨ ∀ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∀ b ( B ( b , d ) → C ( b ) ) )"}
+{"Inputs":"∃ a A ( a ) → ∃ b B ( b , c )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b ¬ B ( b ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b , e ) ⊕ ∀ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∃ b ( ¬ B ( b , d ) ⊕ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∀ b ( B ( b ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b ) → ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b , c ) ∨ C ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∀ b ¬ B ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) ∨ ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( ¬ B ( b ) ∨ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b , d ) → ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( B ( b ) ∨ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b ) → ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b ) → C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , d ) ⊕ ∃ c ¬ C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b , d ) ∧ ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b ) ∧ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∀ b ( ¬ B ( b , d ) ∧ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b , d ) → ∃ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b ) ∨ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ ¬ B ( a , c ) ∨ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ¬ B ( b , c ) → C ( b ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b , d ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∃ b ( ¬ B ( b ) → ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b , d ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b , c )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b , e ) ∧ ∀ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) ∨ ∀ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a A ( a , b ) ∨ B ( a )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∃ b ( B ( b , c ) ⊕ C ( b ) ) )"}
+{"Inputs":"¬ A ( a ) ∨ B ( b , c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b ) → ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , d ) → ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b , c ) → C ( b , d ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b , d ) ∨ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b , d ) → ∃ c C ( c ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b ) → ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b , d ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b , d ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b , d ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b ( B ( b ) ∧ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b , d ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ B ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b ) ∧ C ( b , c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b , d ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b ) ⊕ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∀ b ( ¬ B ( b , d ) ⊕ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b , e ) → ∃ c C ( c , f )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( B ( b ) ⊕ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a ) ∨ C ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ¬ B ( b , c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b ) → ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b , d ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∃ a ¬ A ( a , c ) ∨ ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b ) ∨ ∃ c C ( c , e )"}
+{"Inputs":"∃ a ¬ A ( a ) ∧ ¬ B ( a , b )"}
+{"Inputs":"∃ a A ( a , c ) ⊕ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ B ( a , c ) ⊕ ¬ C ( a ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b , d ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b , d ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a ) ⊕ ∃ b C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b ) → ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b ) → ∀ c C ( c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∀ b ( B ( b ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∃ b ( B ( b ) ⊕ C ( b , c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b , d ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ ¬ B ( a , c ) ∨ ¬ C ( a , d ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b , d ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ( B ( b , c ) → ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b , e ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , c ) → C ( b , d ) ) )"}
+{"Inputs":"¬ A ( a , c ) ∧ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b ) ∧ ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b , d ) ∧ ∀ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ B ( a ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b , d ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b ) ⊕ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( ¬ B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b , c ) ∨ ¬ C ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b ) ⊕ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b ) → ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b , d ) ∨ ∃ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b , e ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a , c ) ∨ ∀ b B ( b )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b , e ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b ) ⊕ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b ) ⊕ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ( B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b , d ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , b ) ⊕ ¬ B ( a ) ⊕ C ( a ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ¬ B ( b , c ) ∨ C ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b ) ∨ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b , e ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∀ b ( ¬ B ( b ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a , b ) ⊕ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b , d ) ∨ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ ¬ B ( a , c ) ∨ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( B ( b ) ∨ C ( b , c ) ) )"}
+{"Inputs":"∃ a ¬ A ( a )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b , d ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b ) → ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b , e ) ⊕ ∀ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( ¬ B ( b ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b , d ) ∧ ∃ c C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b , d ) ∨ ∀ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∃ b ( ¬ B ( b , c ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b ) → ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∃ b ( ¬ B ( b , c ) ∨ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , d ) ∧ ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ¬ B ( b ) ∧ C ( b ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b ) ⊕ ¬ C ( b , c ) ) )"}
+{"Inputs":"∃ a ¬ A ( a ) ∧ ∀ b B ( b , c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∃ b ( B ( b , d ) ⊕ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a ) )"}
+{"Inputs":"∃ a A ( a , c ) → ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a ) → ∀ b ¬ C ( b , c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b , d ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b ) ∨ C ( b ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b ) ∧ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∃ a ( A ( a ) ∨ ¬ B ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b , d ) ⊕ ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b , c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b , e ) → ∀ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ ¬ B ( a , c ) → C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b ) ∧ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b ) → ∀ c C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b ¬ B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a ) ∧ C ( a , b ) )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b ¬ B ( b ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∃ b ( B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , d ) ∨ ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b ) ∨ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ ¬ B ( a ) ⊕ C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b ) ⊕ C ( b , c ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ¬ B ( b ) ∧ ∀ c C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b ) ∨ C ( b , c ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b , e ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ B ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b , d ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∀ b ( B ( b ) → C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ¬ B ( b ) ∧ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b , d ) ⊕ ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b , e ) → ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b , d ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) → ¬ B ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b ) ∧ ∀ c C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b ) ∨ C ( b , c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b , c ) → C ( b , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b ) ∧ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b , d ) → ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b ) ∨ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ¬ B ( a , b )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b ) → ∀ c ¬ C ( c , e )"}
+{"Inputs":"∃ a A ( a ) → ∀ b ¬ B ( b , c )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b , d ) ∧ ∃ c C ( c , e ) )"}
+{"Inputs":"∀ a ( A ( a , b ) → B ( a ) → C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b , d ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∃ b ¬ B ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b ) ∧ ∃ c C ( c , d ) ) )"}
+{"Inputs":"∃ a ¬ A ( a , b )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b ) ∨ ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∀ b ¬ B ( b ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b , d ) → ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a ) ∧ ∀ b C ( b , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"¬ A ( a , c ) → B ( b , d )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b , d ) ∧ ∀ c C ( c )"}
+{"Inputs":"∃ a ( A ( a , c ) ⊕ ∀ b ¬ B ( b , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b , d ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b , d ) ∨ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∃ b ( ¬ B ( b , d ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b , d ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b ) ∨ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∀ b ( ¬ B ( b ) → C ( b , c ) ) )"}
+{"Inputs":"∃ a ¬ A ( a , c ) ∨ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a , b ) ∨ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a ) ∨ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( B ( b , c ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b ) ⊕ ∃ c C ( c , d ) ) )"}
+{"Inputs":"∃ a A ( a ) ∨ ∀ b B ( b , c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , c ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b ) ⊕ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a ) ⊕ ∀ b ¬ C ( b , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , b ) ∨ ¬ B ( a ) → C ( a , c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b ( ¬ B ( b ) ∨ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → B ( a , b ) → C ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ( B ( b , c ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b , d ) ∨ ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b , d ) ∨ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b , d ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a , b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( ¬ B ( b ) → C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) ⊕ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b ) → ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a , b ) ⊕ ¬ B ( a ) → C ( a , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b , c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b , e ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a ) ∧ ∀ b ¬ C ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b ) ∧ ∀ c C ( c , d )"}
+{"Inputs":"∀ a A ( a , c ) → ∀ b ¬ B ( b , d )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( B ( b , d ) ∧ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ¬ B ( b , d ) → ∀ c C ( c ) )"}
+{"Inputs":"∃ a A ( a ) ∧ ∃ b B ( b , c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b , d ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∃ a A ( a , c ) → ∃ b B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , d ) ∧ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b ) ∧ ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a ) ∨ ∃ b C ( b ) )"}
+{"Inputs":"∃ a A ( a ) ∧ ∃ b ¬ B ( b , c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b , e ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∃ b ( ¬ B ( b ) ∨ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b ) → ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a ) → ¬ C ( a ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b , d ) ⊕ ∃ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ B ( a , c ) ∧ C ( a , d ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( B ( b ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ¬ B ( b , c ) ∨ C ( b , d ) )"}
+{"Inputs":"A ( a , c ) ∧ ∀ b B ( b )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b , d ) ∨ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b , d ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a ) ⊕ C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b ) ∧ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ¬ B ( a , b ) ∨ C ( a , c ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b , c ) → ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b ) ∧ ∃ c C ( c , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∀ b ( ¬ B ( b ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ( B ( b ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b , d ) ∨ ∃ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b ) ∨ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a ) ⊕ ∃ b C ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b , e ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b ) ⊕ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b , c ) ∨ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b , e ) ∨ ∀ c C ( c , f )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∀ b ( ¬ B ( b ) ∨ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b , d ) ⊕ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a , c ) ⊕ ∃ b C ( b , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , d ) → ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a , b ) → B ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b ) → ∃ c C ( c , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) → ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b ) ∧ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ¬ B ( b ) ∧ ∀ c C ( c , d ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b , d ) ∨ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a ) → C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b ) ∧ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( ¬ B ( b , d ) ∨ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b ) ∧ ∀ c ¬ C ( c , d ) )"}
+{"Inputs":"∃ a ( A ( a ) ⊕ B ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∀ b ( B ( b , d ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b , e ) ∨ ∃ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b , c ) ∨ ¬ C ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b , e ) ∧ ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b ) ∨ ∃ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b , d ) ∨ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b , d ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∃ b ( B ( b ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b ) → ∃ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b , e ) ∨ ∃ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b ) ∨ ∃ c C ( c ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ B ( a ) → ¬ C ( a ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ¬ B ( b ) ∧ ∀ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b ) → ∀ c C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ ¬ B ( a ) ∨ C ( a , c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b , e ) ∧ ∃ c C ( c , f )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b , d ) ∨ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ B ( a ) → C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b , d ) → ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b , d ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b , d ) ∧ ∀ c C ( c ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∀ b ( ¬ B ( b ) ∧ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a , b ) ∧ C ( a , c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b , e ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ¬ B ( b , d ) ∨ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b ) ∧ ∃ c C ( c , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b , e ) ∧ ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b , c ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ B ( a ) ∧ C ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b , c ) → C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a ) ∨ ∃ b ¬ C ( b , c ) )"}
+{"Inputs":"¬ A ( a ) → ∃ b B ( b )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ B ( a ) ⊕ C ( a , c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ¬ B ( a , b ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b ) ∧ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∃ a A ( a ) → ∀ b B ( b )"}
+{"Inputs":"∃ a A ( a , c ) ∨ ∀ b B ( b , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b , d ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b ) ∧ ∃ c C ( c , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b ) ∨ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( ¬ B ( b , d ) ∨ C ( b , e ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b , c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ B ( a ) ∨ C ( a , c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b ) → ∃ c ¬ C ( c )"}
+{"Inputs":"A ( a ) ⊕ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ B ( a , b ) ∨ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ B ( a , c ) ⊕ ∀ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b ) ∧ ¬ C ( b , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b , c ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b ) ∨ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∀ b ( B ( b ) ⊕ C ( b , d ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , d ) ⊕ ∀ c ¬ C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b , c ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∃ a ( ¬ A ( a ) ⊕ ∀ b B ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b , c )"}
+{"Inputs":"∃ a ( A ( a , c ) ∨ ∀ b B ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( B ( b ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∀ b ( ¬ B ( b , d ) → ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∃ a ¬ A ( a , b ) ∨ B ( a , c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a ) ∨ ∀ b C ( b , c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∀ b ( ¬ B ( b ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b ) ∨ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b ) ∨ ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b , d ) ∧ ∀ c C ( c )"}
+{"Inputs":"∃ a A ( a ) ⊕ ∃ b B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∀ b ( ¬ B ( b , c ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b ) → ∀ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( B ( b , d ) ⊕ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b B ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a , b ) ⊕ B ( a )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ( B ( b ) → ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ¬ B ( b ) ∧ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ( A ( a , b ) → B ( a ) ∨ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b , d ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b ( ¬ B ( b , d ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a , c ) ⊕ ∀ b B ( b , d )"}
+{"Inputs":"∀ a A ( a , c ) ∨ ∃ b ¬ B ( b , d )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b ) ∨ ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ∨ ¬ B ( a , c ) ∧ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b ) ∧ ∃ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b , d ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b , e ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b , d ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b ) ⊕ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ¬ B ( b ) ⊕ ¬ C ( b ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b ) → ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b ) → ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b ) ∨ ∀ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∃ b ¬ B ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b , d ) ⊕ ∃ c C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b ) ∨ ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b , d ) ⊕ ∃ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( ¬ B ( b , d ) ⊕ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∀ b ( ¬ B ( b ) ∨ C ( b , c ) ) )"}
+{"Inputs":"∃ a ( ¬ A ( a , c ) ∨ ∃ b B ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b , d ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b , e ) → ∀ c C ( c , f )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b , d ) → ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b , e ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ¬ B ( a , b ) ⊕ C ( a , c ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b , d ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b , e ) ∨ ∀ c ¬ C ( c , f )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b B ( b ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b , d ) ∨ ∃ c C ( c )"}
+{"Inputs":"∃ a A ( a , c ) → ∃ b ¬ B ( b , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b ) → ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b , d ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b ) ∨ C ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∃ b ( ¬ B ( b ) ∨ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b ) ⊕ ∀ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( ¬ B ( b ) ∧ ∀ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b ) ∨ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , b ) → ¬ B ( a , c ) ⊕ ¬ C ( a , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , d ) ∨ ∃ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) ∧ ∀ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b , e ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ B ( a , b ) → ¬ C ( a ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b ) ∨ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b , c ) ∧ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∀ b ( ¬ B ( b , d ) ⊕ C ( b ) ) )"}
+{"Inputs":"∃ a A ( a ) → ∀ b B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b ) → C ( b , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , d ) ∨ ∃ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a , c ) → ∃ b ¬ C ( b ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b , d ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b , d ) ⊕ ∀ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b , d ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"A ( a ) ∧ ∀ b B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b ) ⊕ ¬ C ( b , c ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b , d ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b , d ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , b ) ∨ ¬ B ( a , c ) → ¬ C ( a ) )"}
+{"Inputs":"∃ a ( ¬ A ( a , c ) ∨ ∀ b ¬ B ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b ) ∧ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b ) ∨ ∀ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∃ b ( ¬ B ( b , c ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b , d ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b , d ) → ∃ c C ( c , e ) )"}
+{"Inputs":"∀ a A ( a , c ) ∨ ∃ b B ( b , d )"}
+{"Inputs":"∃ a ¬ A ( a , c ) ∧ ∃ b B ( b )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b , d ) ∨ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b , d ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) ∨ ∀ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ B ( a , c ) ⊕ C ( a , d ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∃ b ( ¬ B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a , c ) ∧ ∃ b ¬ C ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b , d ) → ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ ¬ B ( a ) ⊕ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b ) ∨ ∀ c ¬ C ( c , d )"}
+{"Inputs":"A ( a ) → ¬ B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b ) ∨ ¬ C ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b ) → ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ¬ B ( b ) → C ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( ¬ B ( b ) ⊕ C ( b , d ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b , d ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ ¬ B ( a , c ) ∧ ¬ C ( a ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b , d ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b ) → ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∃ b ( B ( b , c ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b ) ∨ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b ) ⊕ ¬ C ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∀ b B ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b ) ∧ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ¬ B ( a ) ⊕ C ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a , c ) ∧ ∃ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , d ) ⊕ ∃ c C ( c , e ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b ) ⊕ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∃ b ( B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( B ( b ) → C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b , d ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∀ b ( ¬ B ( b ) ∨ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b ) ∧ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b ) ∨ ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∃ a ¬ A ( a , c ) ∧ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b , d ) ∨ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , d ) → ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a , b ) ∧ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) ⊕ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b ) ⊕ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"A ( a , c ) ∨ ¬ B ( b , d )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ⊕ B ( a , c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b , c ) → C ( b , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ B ( a , b )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b , c ) )"}
+{"Inputs":"∃ a ( A ( a , c ) ∨ ∀ b ¬ B ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b ) → ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b , d ) ⊕ ∃ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b ) ⊕ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b , d ) ∧ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) ∨ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( B ( b ) → C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∃ b ( B ( b ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∃ b ( B ( b ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( ¬ B ( b , c ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → B ( a ) → ¬ C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b ) ⊕ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∀ b ( ¬ B ( b ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∃ b ( ¬ B ( b ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∀ b ( ¬ B ( b ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b ) ∨ ∃ c C ( c )"}
+{"Inputs":"∃ a A ( a , c ) → ∀ b B ( b )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a ) → ∃ b ¬ C ( b , c ) )"}
+{"Inputs":"∃ a ¬ A ( a ) ⊕ B ( a )"}
+{"Inputs":"∃ a ¬ A ( a , c ) ⊕ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∀ b ( ¬ B ( b , d ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b ) ∧ ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b , d ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) ⊕ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∃ a ( A ( a , b ) ∨ B ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a ) ∧ C ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b ) ∨ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a A ( a , c ) → ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b , c ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( ¬ B ( b ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b ) ∧ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∃ a A ( a ) ⊕ ∀ b ¬ B ( b , c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b , e ) ∨ ∀ c C ( c , f )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b , e ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b ) ∧ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b ) ⊕ ∃ c ¬ C ( c ) ) )"}
+{"Inputs":"∃ a ¬ A ( a ) ∧ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b , d ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b ) ∧ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ¬ B ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a , c ) ∧ ∀ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a , b ) ∨ C ( a , c ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b , d ) → ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ¬ B ( b ) ∧ C ( b , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b ) ⊕ ∃ c C ( c , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a , b ) ∧ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ¬ B ( b , c ) ∨ ¬ C ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b , c ) ∧ ¬ C ( b ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b ) ∨ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( B ( b ) ∧ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b , d ) ⊕ ∀ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ ¬ B ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , c ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b , e ) ∨ ∀ c C ( c )"}
+{"Inputs":"A ( a , c ) ⊕ ∀ b B ( b )"}
+{"Inputs":"∃ a ¬ A ( a , c ) ∨ ∃ b B ( b , d )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b , e ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b ) ∨ C ( b , c ) )"}
+{"Inputs":"∀ a ¬ A ( a , c ) ∨ ∀ b B ( b , d )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b , e ) ⊕ ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b , d ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ B ( a , c ) ⊕ C ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b , d ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b , d ) ∧ ∃ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a ) ∨ ¬ C ( a , b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ¬ B ( a ) ∨ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a ) ∧ ∀ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∀ b ¬ B ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∃ b ( ¬ B ( b , c ) → C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b , d ) ∨ ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b ) ⊕ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b ) ∧ C ( b , c ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b ) ⊕ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b ¬ B ( b , d ) → ∃ c C ( c , e )"}
+{"Inputs":"∃ a A ( a , c ) ∧ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b , e ) ∨ ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b , d ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∃ a ¬ A ( a , c ) → ∀ b B ( b , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∀ b ( ¬ B ( b , d ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , b ) → ¬ B ( a , c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b , d ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∀ b ( ¬ B ( b , d ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ ¬ B ( a ) ∧ C ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∀ b ( ¬ B ( b ) ⊕ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ⊕ ¬ B ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b ) ⊕ ∃ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∃ a ¬ A ( a ) ∧ ∃ b B ( b , c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∀ b ( ¬ B ( b , c ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ¬ B ( a ) ∧ ∀ b C ( b , c ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b ) ∧ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b , d ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b , e ) ∧ ∃ c C ( c , f )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → B ( a )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b , d ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , d ) ∧ ∀ c C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b ) ∨ ∃ c C ( c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b , d ) → ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b , c ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b , e ) → ∀ c C ( c , f )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b , d ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b , d ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∃ a ¬ A ( a ) → ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∃ b ( B ( b , c ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∀ b ( B ( b ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b ) ∨ ∃ c C ( c , d )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b , e ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b , d ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a , c ) → ∃ b B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b ) ∧ ∀ c C ( c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( B ( b , c ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b ) ∨ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b ) → ∀ c C ( c )"}
+{"Inputs":"A ( a ) ∧ ∃ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ B ( a ) → ¬ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b , d ) → ∃ c C ( c ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b ( ¬ B ( b , d ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b ) ⊕ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b , e ) → ∀ c C ( c , f )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b , d ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b ) ⊕ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b , d ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b , d ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∃ a ( ¬ A ( a , c ) → ∃ b B ( b , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b , d ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ B ( a , c ) ⊕ ¬ C ( a , d ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ B ( a ) ⊕ ¬ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b , d ) ⊕ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∃ b ( B ( b , c ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∃ b ( B ( b , c ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b ) → ∃ c C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∃ a ( A ( a , c ) ⊕ ∃ b ¬ B ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b ) ∧ ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b B ( b , c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ B ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( ¬ B ( b , c ) ∨ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∀ b ( ¬ B ( b ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b , d ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ( ¬ B ( b ) ⊕ ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∀ b ( ¬ B ( b ) → ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∀ b ( B ( b , d ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b ) ∧ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b ) ∨ ∃ c C ( c , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b ) → ¬ C ( b , c ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b , d ) → ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a ) ∧ ∃ b C ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b , d ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b ) ∨ ∀ c C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b ) → ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∃ b ( ¬ B ( b , d ) ∨ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b ) ⊕ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ B ( a ) ⊕ ¬ C ( a , b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b ¬ B ( b , d ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b B ( b ) → ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b , d ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b , d ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b , d ) ∨ ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b , d ) ∨ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ B ( a , b ) → C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b , c ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a , b ) ⊕ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b , e ) ∨ ∀ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b , c ) ∧ ¬ C ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b ) → ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∃ b ( B ( b , d ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b , d ) → ∀ c ¬ C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a , c ) ∧ ∀ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b , d ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b , e ) → ∃ c ¬ C ( c , f )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → B ( a , b ) ∧ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ¬ B ( a , b )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∀ b ¬ B ( b , d ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b B ( b ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b , e ) ⊕ ∃ c C ( c , f )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b ¬ B ( b ) ⊕ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b , d ) → ∀ c C ( c ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b , d ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b ) ∧ ∀ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b ( B ( b ) → ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b , c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( ¬ B ( b , d ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) ∧ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b ) ⊕ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b ( B ( b , d ) ∨ C ( b , e ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b , d ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∀ b ( ¬ B ( b ) → C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b , d ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b , e ) ⊕ ∃ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b ) ⊕ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"¬ A ( a , c ) ⊕ ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b ) ⊕ ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b , d ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b , c ) → C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b , d ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b , d ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∃ b ( ¬ B ( b ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b , d ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b ) ⊕ ∃ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∃ b ( ¬ B ( b ) ⊕ C ( b , d ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b ) ∧ ∃ c ¬ C ( c , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) ∧ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∃ b B ( b , c ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b , d ) ∨ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∀ b ( ¬ B ( b ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∀ b ( B ( b ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∃ b ( B ( b , c ) ⊕ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ ¬ B ( a ) ∨ ¬ C ( a ) )"}
+{"Inputs":"∃ a A ( a ) ⊕ ∀ b ¬ B ( b )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b ) → ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b ) ∨ ∀ c ¬ C ( c , d ) ) )"}
+{"Inputs":"A ( a , c ) → B ( b )"}
+{"Inputs":"∃ a ( A ( a , c ) ⊕ ∃ b ¬ B ( b , d ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∃ b ( ¬ B ( b ) ⊕ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b , d ) → ∀ c ¬ C ( c )"}
+{"Inputs":"¬ A ( a , c ) → ∃ b B ( b )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∀ b ( B ( b , c ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b ) ∧ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b , d ) ⊕ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a , c ) ⊕ ∀ b ¬ C ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b , c ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b , d ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b , d ) ∨ ∃ c C ( c )"}
+{"Inputs":"∃ a ( A ( a ) → B ( a ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b , e ) ∧ ∀ c ¬ C ( c , f )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b , e ) ∨ ∃ c C ( c )"}
+{"Inputs":"∃ a ¬ A ( a , c ) ⊕ ∃ b B ( b , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ¬ B ( a ) ⊕ ∀ b ¬ C ( b , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a ) ∧ C ( a ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b , d ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b ) ∧ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∃ b ( B ( b , c ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b , c )"}
+{"Inputs":"∀ a ( A ( a , b ) ∨ B ( a , c ) ⊕ C ( a , d ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b ¬ B ( b , e ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b ¬ B ( b ) ∧ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a ) ⊕ ∃ b C ( b , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( ¬ B ( b , c ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b , d ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∃ b ¬ B ( b ) ∧ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , c ) ∨ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ B ( a ) → C ( a , b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b B ( b , d ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b , c ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b , d ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( B ( b , d ) ∧ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ¬ B ( b , c ) ∧ ¬ C ( b , d ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b ) ∨ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b , d ) ∨ ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∃ b B ( b , d ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∃ a A ( a ) ∧ ∃ b B ( b )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ∀ b ¬ B ( b , c ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∀ b ( B ( b , d ) ⊕ C ( b , e ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b ) → ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) ⊕ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b B ( b , e ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ¬ B ( a ) ⊕ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b ) → ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b , e ) ⊕ ∃ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ¬ B ( b , d ) ∧ ∀ c C ( c ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b B ( b ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a , b ) ∨ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∃ b ( B ( b , d ) ⊕ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∃ b ( B ( b , d ) → C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( ¬ B ( b ) ∧ ∀ c ¬ C ( c ) ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b ¬ B ( b ) ∧ ∃ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a , b ) ∧ B ( a ) ∨ ¬ C ( a ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b , d ) ∨ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) ⊕ ∃ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ B ( a ) ⊕ C ( a ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ( A ( a , b ) ∨ B ( a ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∨ ∃ b ( B ( b , d ) → C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b , d ) → ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b , c ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∃ b ( ¬ B ( b ) → ¬ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ( ¬ B ( b ) ⊕ C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b ) ⊕ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b B ( b ) ∧ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b ¬ B ( b , d ) ∧ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b , d ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a , c ) ∧ ∃ b C ( b , d ) )"}
+{"Inputs":"A ( a ) ⊕ ¬ B ( b )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b ¬ B ( b ) ∨ ∀ c C ( c , d )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) ∨ ∀ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b B ( b , d ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∃ b ( B ( b ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) → ∀ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∀ b ( ¬ B ( b , d ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∃ a ( ¬ A ( a ) → ∃ b B ( b ) )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b ) ∧ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∀ b B ( b , d ) ⊕ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b , d ) → ∃ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b , e ) ∧ ∀ c ¬ C ( c , f )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b , d ) ⊕ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b , d ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b , d ) → ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∨ ∃ b B ( b ) → ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b B ( b , d ) ⊕ ∀ c C ( c ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∧ ¬ B ( a , c ) → C ( a , d ) )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∀ b ¬ B ( b , e ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b , d ) → ∀ c C ( c , e ) )"}
+{"Inputs":"¬ A ( a , c ) ⊕ ∃ b B ( b )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ∀ b ( ¬ B ( b , c ) ∧ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b B ( b , d ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) ∧ ∃ b ¬ C ( b , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b , d ) ∨ ∃ c C ( c ) ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b , d ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b , d ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b ) ⊕ ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∀ b ( B ( b , d ) ∨ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b , d ) → ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a A ( a ) → ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ¬ B ( b ) ∧ ∀ c ¬ C ( c ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∀ b ¬ B ( b ) ∨ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b B ( b ) ⊕ ∀ c C ( c , d )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∧ ¬ B ( a , b ) ⊕ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a ) → ∃ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) → B ( a ) ∧ ∀ b C ( b , c ) )"}
+{"Inputs":"∃ a A ( a ) → ∃ b ¬ B ( b )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∃ b ( B ( b , d ) ∨ ¬ C ( b , e ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ⊕ ∀ b B ( b , d ) ∧ ∃ c C ( c , e )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b ) → ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ B ( a , b ) )"}
+{"Inputs":"∀ a ( A ( a , c ) ∨ ∃ b ( B ( b , d ) ⊕ ¬ C ( b , e ) ) )"}
+{"Inputs":"∃ a A ( a ) ∨ ∃ b B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b ¬ B ( b ) → ∃ c ¬ C ( c ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∃ a ( ¬ A ( a , b ) ∧ ¬ B ( a ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∀ b B ( b , d ) ∨ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b , d ) ∨ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) → ∀ b ( ¬ B ( b , d ) ∨ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ¬ B ( a ) ∧ ∃ b ¬ C ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ B ( a ) ⊕ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b ) ⊕ ∃ c ¬ C ( c , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b ) → C ( b , c ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b ) → ∃ c ¬ C ( c , d )"}
+{"Inputs":"∀ a ¬ A ( a ) ∨ ∃ b B ( b , d ) ⊕ ∃ c ¬ C ( c )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∃ b B ( b , e ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∃ b ( ¬ B ( b ) ∨ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b B ( b , d ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b , d ) ⊕ ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ∀ b ( ¬ B ( b , c ) ⊕ ¬ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ¬ B ( b , c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → ∃ b ( ¬ B ( b , c ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b ) ⊕ ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( ¬ B ( b ) → C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( B ( b , d ) ∨ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b ¬ B ( b , e ) ∧ ∀ c C ( c )"}
+{"Inputs":"A ( a , c ) ∨ B ( b )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ¬ B ( b ) ∧ C ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ B ( a , c ) ∧ ∃ b C ( b ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , b ) ∨ B ( a , c ) ∧ ¬ C ( a ) )"}
+{"Inputs":"∀ a A ( a ) ∨ ∀ b ¬ B ( b ) → ∃ c C ( c , d )"}
+{"Inputs":"¬ A ( a ) ∧ ∀ b ¬ B ( b , c )"}
+{"Inputs":"∀ a A ( a , d ) ∧ ∃ b ¬ B ( b , e ) ∨ ∃ c C ( c , f )"}
+{"Inputs":"∀ a A ( a ) ∧ ∀ b ¬ B ( b , d ) ∧ ∀ c C ( c , e )"}
+{"Inputs":"∀ a A ( a , d ) ∨ ∀ b B ( b ) ∧ ∃ c C ( c )"}
+{"Inputs":"∀ a A ( a , d ) → ∀ b B ( b , e ) ∨ ∀ c C ( c )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b ¬ B ( b , d ) ⊕ ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a ) → B ( a ) ∨ C ( a ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( B ( b , d ) → ∀ c C ( c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b B ( b , d ) ⊕ ∀ c C ( c ) )"}
+{"Inputs":"∀ a A ( a ) ⊕ ∃ b B ( b ) → ∀ c C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( B ( b ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) ⊕ ∀ b ¬ B ( b ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( ¬ B ( b ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∀ b ¬ B ( b ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( B ( b , c ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ∨ ¬ B ( a , b ) ⊕ ¬ C ( a , c ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) → ∃ b B ( b ) )"}
+{"Inputs":"∀ a A ( a ) ∧ ∃ b B ( b ) ⊕ ∀ c C ( c , d )"}
+{"Inputs":"∃ a ( A ( a ) ⊕ ∀ b ¬ B ( b , c ) )"}
+{"Inputs":"∃ a ¬ A ( a ) ⊕ ∃ b B ( b , c )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∀ b ( ¬ B ( b ) → ¬ C ( b ) ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b ¬ B ( b , e ) → ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ∧ ∀ b ( ¬ B ( b ) ∧ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) ∧ ∃ b ¬ B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b , c ) ⊕ C ( b , d ) )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∀ b ( ¬ B ( b , d ) ∧ C ( b , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b ( B ( b , c ) ∨ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b , c ) → C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b ) ⊕ ∃ c C ( c ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b , d ) ∧ ∀ c ¬ C ( c )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∃ b ( ¬ B ( b , c ) ∧ C ( b ) ) )"}
+{"Inputs":"∀ a ¬ A ( a ) → ∀ b ¬ B ( b , d ) → ∃ c ¬ C ( c , e )"}
+{"Inputs":"∀ a ( ¬ A ( a , c ) ∧ ∃ b ( ¬ B ( b , d ) → C ( b ) ) )"}
+{"Inputs":"∀ a ( ¬ A ( a ) ⊕ ¬ B ( a ) )"}
+{"Inputs":"∀ a A ( a , d ) → ∃ b B ( b , e ) ∧ ∀ c C ( c , f )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∃ b ( ¬ B ( b , d ) ∧ ∃ c ¬ C ( c , e ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∧ ∀ b B ( b , d ) ⊕ ∀ c ¬ C ( c , e ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( B ( b ) → C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∃ b ( ¬ B ( b ) ∨ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b B ( b ) ∨ C ( b , c ) )"}
+{"Inputs":"∀ a A ( a ) → ∀ b ¬ B ( b , d ) ∨ ∃ c C ( c )"}
+{"Inputs":"∀ a ( A ( a , c ) ⊕ ∃ b ( B ( b ) ∧ C ( b , d ) ) )"}
+{"Inputs":"∀ a ( A ( a ) ⊕ ∀ b ( ¬ B ( b ) ∧ C ( b , c ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∀ b ( B ( b ) ⊕ ∀ c C ( c ) ) )"}
+{"Inputs":"A ( a ) ∨ B ( b , c )"}
+{"Inputs":"∀ a ( A ( a ) ∨ ∀ b ( ¬ B ( b , c ) ⊕ ¬ C ( b ) ) )"}
+{"Inputs":"∀ a ( A ( a ) → ∃ b B ( b ) ∨ ∃ c ¬ C ( c ) )"}
