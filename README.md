@@ -59,7 +59,6 @@ python Optimal T5 for FOL2NS Translation.ipynb\
   --batch_size 8 \
   --learning_rate 1e-4 \
   --num_epochs 20 \
-  --seed 42\
   --Other strategies:
   ----Add special symbols to T5Tokenizer
   ----Replace special symbols with corresponding natural words
