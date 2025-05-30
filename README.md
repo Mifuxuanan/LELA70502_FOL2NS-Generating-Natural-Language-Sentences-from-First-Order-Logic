@@ -41,24 +41,23 @@ root/
 ## Running the code
 1. For constructing the dataset:
 - 1-1. You need to download "FOLIO_train.json" and "FOLIO_validation.json"
-- 1-2. Then you can directly run the script of "Preprocessing Dataset.ipynb"
+- 1-2. Then you can directly run the script of "Preprocessing Dataset.ipynb" in Jupyter notebook
 2. For main experiments:
 - 2-1. You need to download "FOL2NS.json" and "FOL2NW_with_predicate.json"
 - 2-2. You don't need to run the previous step for preprocessing data
-- 2-3. Then you can directly run the script of "Optimal T5 for FOL2NS Translation.ipynb"
+- 2-3. Then you can directly run the script of "Optimal T5 for FOL2NS Translation.ipynb" in Jupyter notebook
 - 2-4. If you want to try different hyperparameters during training the model, you also need to download "FOL2NS.json" and "FOL2NW_with_predicate.json". Then you can directly run the script of "Hyperparameter Sensitivity for Finetuning T5.ipynb"
 
 ## The optimal configuration for T5
 
 ### T5 (Seq2Seq)
 
-```bash
-python Optimal T5 for FOL2NS Translation.ipynb\
-  --model_type T5-large \
-  --prefix: "Translate FOL formulas to English:" \
-  --batch_size 8 \
-  --learning_rate 1e-4 \
-  --num_epochs 20 \
+python Optimal T5 for FOL2NS Translation.ipynb
+  --model_type T5-large 
+  --prefix: "Translate FOL formulas to English:" 
+  --batch_size 8 
+  --learning_rate 1e-4 
+  --num_epochs 20 
   --Other strategies:
   ----Add special symbols to T5Tokenizer
   ----Replace special symbols with corresponding natural words
