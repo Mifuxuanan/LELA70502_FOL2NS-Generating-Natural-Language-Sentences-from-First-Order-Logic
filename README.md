@@ -53,17 +53,27 @@ root/
 ### T5 (Seq2Seq)
 
 python Optimal T5 for FOL2NS Translation.ipynb
-  --model_type T5-large 
-  --prefix: "Translate FOL formulas to English:" 
-  --batch_size 8 
-  --learning_rate 1e-4 
-  --num_epochs 20 
-  --Other strategies:
-  ----Add special symbols to T5Tokenizer
-  ----Replace special symbols with corresponding natural words
-  ----In validation stage, use "model.generate()" with "num_beams=5, repetition_penalty=1, no_repeat_ngram_size=2,max_length=64, early_stopping=True
-  ----In test stage, use "model.generate()" with "num_beams=5, repetition_penalty=1, no_repeat_ngram_size=3, early_stopping=True, max_length=100"
-  --different hyperparameters can be explored\
+1. model_type T5-large
+   
+2. prefix: "Translate FOL formulas to English:"
+   
+3. batch_size 8
+   
+4. learning_rate 1e-4
+   
+5. num_epochs 20
+   
+6. Other strategies:
+   
+   6-1：Add special symbols to T5Tokenizer
+   
+   6-2：Replace special symbols with corresponding natural words
+   
+   6-3：In validation stage, use "model.generate()" with "num_beams=5, repetition_penalty=1, no_repeat_ngram_size=2,max_length=64, early_stopping=True
+   
+   6-4： In test stage, use "model.generate()" with "num_beams=5, repetition_penalty=1, no_repeat_ngram_size=3, early_stopping=True, max_length=100"
+   
+7. different hyperparameters can be explored\
 ```
 
 ## Citation & References
